@@ -36,7 +36,7 @@ You should have received a copy of the GNU General Public License along with thi
 	　←　　　　　　　　　フォーカス移動
 	　→　　　　　　　　　フォーカス移動
 	　shift + ↑　　　　　数値UP
-	　shift + ↓　　　　　数値UP
+	　shift + ↓　　　　　数値DOWN
 	　space 　　　　　　　8bit Read
 	　shift + space 　　　8bit write
 	　return　　　　　　　16bit Read
