@@ -11,48 +11,48 @@ You should have received a copy of the GNU General Public License along with thi
 
 ---------------------------------
 
-@iopm.exe‚ÍPC-98x1‚ÅI/Oƒ|[ƒg‚ð”äŠr“IŽ©—R‚É“Ç‚Ý‘‚«‚·‚éƒvƒƒOƒ‰ƒ€‚Å‚·B
-@‘€ì‚É‚ÍƒJ[ƒ\ƒ‹ƒL[AƒXƒy[ƒXƒL[AƒŠƒ^[ƒ“ƒL[AƒVƒtƒgƒL[‚ðŽg‚¢‚Ü‚·B
-@I—¹‚·‚éê‡‚ÍAESCƒL[‚ð‰Ÿ‚µ‚Ü‚·B
+ã€€iopm.exeã¯PC-98x1ã§I/Oãƒãƒ¼ãƒˆã‚’æ¯”è¼ƒçš„è‡ªç”±ã«èª­ã¿æ›¸ãã™ã‚‹ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã§ã™ã€‚
+ã€€æ“ä½œã«ã¯ã‚«ãƒ¼ã‚½ãƒ«ã‚­ãƒ¼ã€ã‚¹ãƒšãƒ¼ã‚¹ã‚­ãƒ¼ã€ãƒªã‚¿ãƒ¼ãƒ³ã‚­ãƒ¼ã€ã‚·ãƒ•ãƒˆã‚­ãƒ¼ã‚’ä½¿ã„ã¾ã™ã€‚
+ã€€çµ‚äº†ã™ã‚‹å ´åˆã¯ã€ESCã‚­ãƒ¼ã‚’æŠ¼ã—ã¾ã™ã€‚
 
-@’F
-@Žå‚ÉŠg’£ƒoƒXã‚Ìƒ{[ƒh‚ð‘€ì‚·‚é‚±‚Æ‚ð–Ú“I‚Éì‚ç‚ê‚½‚à‚Ì‚Å‚·‚Ì‚ÅAƒVƒXƒeƒ€‚ð‰ó‚·‘€ì‚É‘Î‚µ‚Ä‚àƒK[ƒh‚Í‚©‚¯‚Ü‚¹‚ñB
-@ƒVƒXƒeƒ€‚âOS‚ð–³Ž‹‚µ‚Ä–³§ŒÀ‚ÉIOƒ|[ƒg‚ð“Ç‚Ý‘‚«‚µ‚Ü‚·‚Ì‚ÅA‘€ì‚ÌŒ‹‰Ê‚É‚æ‚Á‚Ä‚ÍƒVƒXƒeƒ€‚âOS‚ª³í‚É“®ì‚µ‚È‚­‚È‚éê‡‚ª‚ ‚è‚Ü‚·B
+ã€€æ³¨ï¼š
+ã€€ä¸»ã«æ‹¡å¼µãƒã‚¹ä¸Šã®ãƒœãƒ¼ãƒ‰ã‚’æ“ä½œã™ã‚‹ã“ã¨ã‚’ç›®çš„ã«ä½œã‚‰ã‚ŒãŸã‚‚ã®ã§ã™ã®ã§ã€ã‚·ã‚¹ãƒ†ãƒ ã‚’å£Šã™æ“ä½œã«å¯¾ã—ã¦ã‚‚ã‚¬ãƒ¼ãƒ‰ã¯ã‹ã‘ã¾ã›ã‚“ã€‚
+ã€€ã‚·ã‚¹ãƒ†ãƒ ã‚„OSã‚’ç„¡è¦–ã—ã¦ç„¡åˆ¶é™ã«IOãƒãƒ¼ãƒˆã‚’èª­ã¿æ›¸ãã—ã¾ã™ã®ã§ã€æ“ä½œã®çµæžœã«ã‚ˆã£ã¦ã¯ã‚·ã‚¹ãƒ†ãƒ ã‚„OSãŒæ­£å¸¸ã«å‹•ä½œã—ãªããªã‚‹å ´åˆãŒã‚ã‚Šã¾ã™ã€‚
 
-@ƒRƒ“ƒpƒCƒ‰‚Éia16-elf-gccAƒ‰ƒCƒuƒ‰ƒŠ‚Élibi86‚ðŽg—p‚µ‚Ä‚¢‚Ü‚·B
-@‚Ü‚½ƒrƒ‹ƒhŠÂ‹«‚ÍAtkchia‚³‚ñ‚ÌƒŠƒ|ƒWƒgƒŠ‚ÉˆË‘¶‚µ‚Ä‚¢‚Ü‚·Bihttps://github.com/tkchiaj
-@Žg—p‚µ‚Ä‚¢‚éŠeƒc[ƒ‹Aƒ‰ƒCƒuƒ‰ƒŠ‚ÌìŽÒ‚ÉŒhˆÓ‚ð‚±‚ß‚ÄB
+ã€€ã‚³ãƒ³ãƒ‘ã‚¤ãƒ©ã«ia16-elf-gccã€ãƒ©ã‚¤ãƒ–ãƒ©ãƒªã«libi86ã‚’ä½¿ç”¨ã—ã¦ã„ã¾ã™ã€‚
+ã€€ã¾ãŸãƒ“ãƒ«ãƒ‰ç’°å¢ƒã¯ã€tkchiaã•ã‚“ã®ãƒªãƒã‚¸ãƒˆãƒªã«ä¾å­˜ã—ã¦ã„ã¾ã™ã€‚ï¼ˆhttps://github.com/tkchiaï¼‰
+ã€€ä½¿ç”¨ã—ã¦ã„ã‚‹å„ãƒ„ãƒ¼ãƒ«ã€ãƒ©ã‚¤ãƒ–ãƒ©ãƒªã®ä½œè€…ã«æ•¬æ„ã‚’ã“ã‚ã¦ã€‚
 
 ---------------------------------
 
 	USAGE: iopm [-o]
-	  ƒIƒvƒVƒ‡ƒ“–³Žw’èF@‚±‚ÌƒƒbƒZ[ƒW‚ª•\Ž¦‚³‚ê‚Ü‚·B
-	  -o              F@ƒIƒyƒŒ[ƒVƒ‡ƒ“ƒ‚[ƒh‚ð‹N“®‚µ‚Ü‚·B
+	  ã‚ªãƒ—ã‚·ãƒ§ãƒ³ç„¡æŒ‡å®šï¼šã€€ã“ã®ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ãŒè¡¨ç¤ºã•ã‚Œã¾ã™ã€‚
+	  -o              ï¼šã€€ã‚ªãƒšãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³ãƒ¢ãƒ¼ãƒ‰ã‚’èµ·å‹•ã—ã¾ã™ã€‚
 	----------------------------------------------------
-	ƒIƒyƒŒ[ƒVƒ‡ƒ“ƒ‚[ƒh‚ÌƒL[‘€ì
+	ã‚ªãƒšãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³ãƒ¢ãƒ¼ãƒ‰ã®ã‚­ãƒ¼æ“ä½œ
 
-	@ª@@@@@@@@@ƒtƒH[ƒJƒXˆÚ“®
-	@«@@@@@@@@@ƒtƒH[ƒJƒXˆÚ“®
-	@©@@@@@@@@@ƒtƒH[ƒJƒXˆÚ“®
-	@¨@@@@@@@@@ƒtƒH[ƒJƒXˆÚ“®
-	@shift + ª@@@@@”’lUP
-	@shift + «@@@@@”’lUP
-	@space @@@@@@@8bit Read
-	@shift + space @@@8bit write
-	@return@@@@@@@16bit Read
-	@shift + return@@@16bit write
-	@esc @@@@@@@@I—¹
+	ã€€â†‘ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ãƒ•ã‚©ãƒ¼ã‚«ã‚¹ç§»å‹•
+	ã€€â†“ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ãƒ•ã‚©ãƒ¼ã‚«ã‚¹ç§»å‹•
+	ã€€â†ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ãƒ•ã‚©ãƒ¼ã‚«ã‚¹ç§»å‹•
+	ã€€â†’ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ãƒ•ã‚©ãƒ¼ã‚«ã‚¹ç§»å‹•
+	ã€€shift + â†‘ã€€ã€€ã€€ã€€ã€€æ•°å€¤UP
+	ã€€shift + â†“ã€€ã€€ã€€ã€€ã€€æ•°å€¤UP
+	ã€€space ã€€ã€€ã€€ã€€ã€€ã€€ã€€8bit Read
+	ã€€shift + space ã€€ã€€ã€€8bit write
+	ã€€returnã€€ã€€ã€€ã€€ã€€ã€€ã€€16bit Read
+	ã€€shift + returnã€€ã€€ã€€16bit write
+	ã€€esc ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€çµ‚äº†
 	----------------------------------------------------
 
 
 ---------------------------------
 
-@–ƒrƒ‹ƒh‚É‚Â‚¢‚Ä
+ã€€ï¼Šãƒ“ãƒ«ãƒ‰ã«ã¤ã„ã¦
 
-	linux“™‚Å‚Ìà–¾‚É‚È‚è‚Ü‚·B‘¼‚ÌŠÂ‹«‚Å‚Í“K“–‚É“Ç‚Ý‘Ö‚¦‚Ä‚­‚¾‚³‚¢Bwindows‚Å‚ÍWSLŠÂ‹«‚ð„§‚µ‚Ü‚·B
+	linuxç­‰ã§ã®èª¬æ˜Žã«ãªã‚Šã¾ã™ã€‚ä»–ã®ç’°å¢ƒã§ã¯é©å½“ã«èª­ã¿æ›¿ãˆã¦ãã ã•ã„ã€‚windowsã§ã¯WSLç’°å¢ƒã‚’æŽ¨å¥¨ã—ã¾ã™ã€‚
 
 
-@–•K—v‚ÈƒpƒbƒP[ƒW‚ðƒCƒ“ƒXƒg[ƒ‹‚·‚é
+ã€€ï¼Šå¿…è¦ãªãƒ‘ãƒƒã‚±ãƒ¼ã‚¸ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹
 
 	$ sudo add-apt-repository ppa:tkchia/build-ia16
 	$ sudo apt-get update
@@ -60,28 +60,23 @@ You should have received a copy of the GNU General Public License along with thi
 	$ sudo apt-get install libi86-ia16-elf
 
 
-@–ƒA[ƒJƒCƒu‚ð“K“–‚ÈƒfƒBƒŒƒNƒgƒŠ‚É“WŠJ‚·‚é
+ã€€ï¼Šã‚¢ãƒ¼ã‚«ã‚¤ãƒ–ã‚’é©å½“ãªãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã«å±•é–‹ã™ã‚‹
 
-	git‚©‚çŽæ“¾‚·‚é‚È‚èzipƒtƒ@ƒCƒ‹‚ð“WŠJ‚·‚é‚È‚èŠeŽ©‚Ì•û–@‚Å‚¨Šè‚¢‚µ‚Ü‚·
+	gitã‹ã‚‰å–å¾—ã™ã‚‹ãªã‚Šzipãƒ•ã‚¡ã‚¤ãƒ«ã‚’å±•é–‹ã™ã‚‹ãªã‚Šå„è‡ªã®æ–¹æ³•ã§ãŠé¡˜ã„ã—ã¾ã™
 
 	$ mkdir iopm
 	$ cd iopm
 	$ git clone https://github.com/antarcticlion/iopm.git
 
 
-@–ƒrƒ‹ƒh‚·‚é
+ã€€ï¼Šãƒ“ãƒ«ãƒ‰ã™ã‚‹
 
 	$ make clean all
 
-	doxygen‚ðƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚ ‚éê‡ 'make docs' ‚ÅƒR[ƒh‚Ìà–¾‚ðo—Í‚µ‚Ü‚·B
+	doxygenã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ã¦ã‚ã‚‹å ´åˆ 'make docs' ã§ã‚³ãƒ¼ãƒ‰ã®èª¬æ˜Žã‚’å‡ºåŠ›ã—ã¾ã™ã€‚
 
 
-@–ŽÀs‚·‚é
+ã€€ï¼Šå®Ÿè¡Œã™ã‚‹
 
-	iopm.exe‚ðŽÀ‹@‚âƒGƒ~ƒ…ƒŒ[ƒ^‚É“]‘—‚µ‚Ämsdos/freedosã‚ÅŽÀs‚µ‚Ä‚­‚¾‚³‚¢B
+	iopm.exeã‚’å®Ÿæ©Ÿã‚„ã‚¨ãƒŸãƒ¥ãƒ¬ãƒ¼ã‚¿ã«è»¢é€ã—ã¦msdos/freedosä¸Šã§å®Ÿè¡Œã—ã¦ãã ã•ã„ã€‚
 	
-	iopm ‚¾‚¯ƒ^ƒCƒv‚·‚é‚ÆƒL[‘€ì“™‚Ìà–¾‚ð•\Ž¦‚µ‚Ü‚·B
-	iopm -o ‚Æƒ^ƒCƒv‚·‚é‚ÆŽÀÛ‚ÉƒIƒyƒŒ[ƒVƒ‡ƒ“‚·‚éƒ‚[ƒh‚ð‹N“®‚µ‚Ü‚·B
-
-
-
