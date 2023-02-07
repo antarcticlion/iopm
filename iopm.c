@@ -21,6 +21,9 @@ You should have received a copy of the GNU General Public License along with thi
 * @details 注：ファイルは必ずUTF-8で保存すること。コンパイル時にコンパイラ側でUTF-8からSJISに変換します。
 */
 //-------------------------------------------------------------------------
+// Ver 1.00    Initial release
+// Ver 1.01    bug fix: vwrite_kanji: fix number-2 byte flag bug
+//-------------------------------------------------------------------------
 
 #pragma pack(1)
 
@@ -97,7 +100,7 @@ void vwrite_kanji(uint16_t value, uint16_t attr){
 	uint16_t __far *addr_attr = (uint16_t __far *)0xA0002000;
 
 	addr_code[(vposy * 80) + vposx]     = (value & 0xFF7F);
-	addr_code[(vposy * 80) + vposx + 1] = (value & 0x0080);
+	addr_code[(vposy * 80) + vposx + 1] = (value | 0x0080);
 	addr_attr[(vposy * 80) + vposx]     = (attr | ATTR_VISIBLE);
 	addr_attr[(vposy * 80) + vposx + 1] = (attr | ATTR_VISIBLE);
 
@@ -620,7 +623,7 @@ int main(int argc, char *argv[]){
 		VRAM_print("[SHIFT]+[RETURN]　　書込", ATTR_COLOR_WHITE ,1, 16);
 		VRAM_print("[ESC] 　　　　　　　終了", ATTR_COLOR_WHITE ,1, 17);
 		VRAM_print("I/O Port manipulator",     ATTR_COLOR_YELLOW ,1, 20);
-		VRAM_print("  Ver 1.00",               ATTR_COLOR_YELLOW ,15, 21);
+		VRAM_print("  Ver 1.01",               ATTR_COLOR_YELLOW ,15, 21);
 	}
 
 	{//メインループ
