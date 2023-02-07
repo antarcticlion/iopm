@@ -1,0 +1,87 @@
+PC-9801/9821 series I/O Port manipulator
+
+Copyright (C) 2023 antarcticlion
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+
+---------------------------------
+
+　iopm.exeはPC-98x1でI/Oポートを比較的自由に読み書きするプログラムです。
+　操作にはカーソルキー、スペースキー、リターンキー、シフトキーを使います。
+　終了する場合は、ESCキーを押します。
+
+　注：
+　主に拡張バス上のボードを操作することを目的に作られたものですので、システムを壊す操作に対してもガードはかけません。
+　システムやOSを無視して無制限にIOポートを読み書きしますので、操作の結果によってはシステムやOSが正常に動作しなくなる場合があります。
+
+　コンパイラにia16-elf-gcc、ライブラリにlibi86を使用しています。
+　またビルド環境は、tkchiaさんのリポジトリに依存しています。（https://github.com/tkchia）
+　使用している各ツール、ライブラリの作者に敬意をこめて。
+
+---------------------------------
+
+	USAGE: iopm [-o]
+	  オプション無指定：　このメッセージが表示されます。
+	  -o              ：　オペレーションモードを起動します。
+	----------------------------------------------------
+	オペレーションモードのキー操作
+
+	　↑　　　　　　　　　フォーカス移動
+	　↓　　　　　　　　　フォーカス移動
+	　←　　　　　　　　　フォーカス移動
+	　→　　　　　　　　　フォーカス移動
+	　shift + ↑　　　　　数値UP
+	　shift + ↓　　　　　数値UP
+	　space 　　　　　　　8bit Read
+	　shift + space 　　　8bit write
+	　return　　　　　　　16bit Read
+	　shift + return　　　16bit write
+	　esc 　　　　　　　　終了
+	----------------------------------------------------
+
+
+---------------------------------
+
+　＊ビルドについて
+
+	linux等での説明になります。他の環境では適当に読み替えてください。windowsではWSL環境を推奨します。
+
+
+　＊必要なパッケージをインストールする
+
+	$ sudo add-apt-repository ppa:tkchia/build-ia16
+	$ sudo apt-get update
+	$ sudo apt-get install gcc-ia16-elf
+	$ sudo apt-get install libi86-ia16-elf
+
+
+　＊アーカイブを適当なディレクトリに展開する
+
+	gitから取得するなりzipファイルを展開するなり各自の方法でお願いします
+
+	$ mkdir iopm
+	$ cd iopm
+	$ git clone https://github.com/antarcticlion/iopm.git
+
+
+　＊ビルドする
+
+	$ make clean all
+
+	doxygenをインストールしてある場合 'make docs' でコードの説明を出力します。
+
+
+　＊実行する
+
+	iopm.exeを実機やエミュレータに転送してmsdos/freedos上で実行してください。
+	
+	iopm だけタイプするとキー操作等の説明を表示します。
+	iopm -o とタイプすると実際にオペレーションするモードを起動します。
+
+
+
